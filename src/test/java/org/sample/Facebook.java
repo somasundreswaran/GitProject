@@ -19,6 +19,7 @@ public class Facebook {
 		
 		WebElement pass = driver.findElement(By.id("pass"));
 		pass.sendKeys("soma");
+
 		
 	}
 
