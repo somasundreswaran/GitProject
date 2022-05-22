@@ -17,8 +17,9 @@ public class Facebook {
 		WebElement username = driver.findElement(By.id("email"));
 		username.sendKeys("somasundreswaran@gmail.com");
 		
-	   
-		
+		WebElement pass = driver.findElement(By.id("pass"));
+		pass.sendKeys("soma");
+
 		
 	}
 
